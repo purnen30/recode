@@ -56,6 +56,7 @@ module Gitcode {
 				List<WebElement> product = driver.findElements(By.xpath("//div[@class='card-footer']/button"));
 				product.get(i).click();	
 				String[] itemsneeded = {"Samsung Note 7"};
+				product.get(i).sendKeys("mi");	
 			}
 		}
 	}
