@@ -56,6 +56,8 @@ module Gitcode {
 			{
 				List<WebElement> product = driver.findElements(By.xpath("//div[@class='card-footer']/button"));
 				product.get(i).click();	
+				
+				product.get(i).sendKeys("kk");	
 			}
 		}
 	}
