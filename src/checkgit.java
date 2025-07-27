@@ -58,6 +58,12 @@ module Gitcode {
 				product.get(i).click();	
 				
 				product.get(i).sendKeys("kkr");	
+				product.get(i).sendKeys("dc");	
+				product.get(i).sendKeys("gt");	
+				product.get(i).sendKeys("csk");	
+				product.get(i).sendKeys("mi");	
+				product.get(i).sendKeys("rcb");	
+				
 			}
 		}
 	}
